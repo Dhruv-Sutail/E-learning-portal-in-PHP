@@ -43,15 +43,10 @@ switch ($action) {
 			$user->NAME 		= $_POST['user_name'];
 			$user->UEMAIL		= $_POST['user_email'];
 			$user->PASS			=sha1($_POST['user_pass']);
-			$user->TYPE			= "Administrator" ;// 
+			$user->TYPE			= $_POST['user_type'];// 
 			$user->create();
 			$id =  $mydb->insert_id();
-			$student = New Student();
-		    $student->IDNO          = $id;
-		    $student->FNAME         =  $_POST['user_name'];    
-		    $student->USERNAME      = $_POST['user_email'];
-		    $student->STUDPASS      = sha1($_POST['user_pass']);
-		    $student->create(); 
+		 
 
 			message("New [". $_POST['user_name'] ."] created successfully!", "success");
 			redirect("index.php");

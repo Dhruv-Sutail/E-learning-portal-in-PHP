@@ -16,7 +16,7 @@
 				  <thead>
 				  	<tr> 
 				  		 <th>Chapter</th>
-				  		<th>Title</th> 
+				  		<th>Subject</th> 
 				  		<th>File Type</th> 
 				  	 	<th width="30%" >Action</th>
 				 

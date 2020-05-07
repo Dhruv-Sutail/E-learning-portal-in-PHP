@@ -117,7 +117,7 @@ switch ($action) {
 			
 			
 			if($imageFileType != "jpg" || $imageFileType != "png" || $imageFileType != "jpeg"
-				|| $imageFileType != "gif" || $imageFileType != "docs" || $imageFileType != "mp4") {
+				|| $imageFileType != "gif" || $imageFileType != "docs" || $imageFileType == "mp4") {
 				 if (move_uploaded_file($_FILES["file"]["tmp_name"], $target_file)) {
 					return   basename($_FILES["file"]["name"]);
 				}else{

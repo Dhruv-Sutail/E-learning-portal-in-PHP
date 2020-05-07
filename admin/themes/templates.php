@@ -30,11 +30,9 @@
                                 </ul>
                             </li> 
                             <li class="nav-user dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                <img src="user.png" class="nav-avatar" />
+                                <img src="img.jpg" class="nav-avatar" />
                                 <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="#">Your Profile</a></li>
-                                    <li><a href="#">Edit Profile</a></li> 
                                     <li class="divider"></li>
                                     <li><a href="<?php echo web_root;?>admin/logout.php">Logout</a></li>
                                 </ul>

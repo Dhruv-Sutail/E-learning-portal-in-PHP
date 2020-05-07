@@ -1,0 +1,178 @@
+.body,html	{ height: 100%;
+				background-color: #528b8b;
+				}
+.par1	{	background-image: url("para1lel1.jpg");
+			height: 25%;
+			background-attachment: fixed;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			opacity: 0.5;
+			width="70%"
+		}
+.par2	{	background-image: url(".jpg");
+			height: 25%;
+			background-attachment: fixed;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			opacity: 0.5;
+		}
+.par3	{	background-image: url(".png");
+			height: 25%;
+			background-attachment: fixed;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			opacity: 0.5;
+		}
+.par4	{	background-image: url(".jpg");
+			height: 25%;
+			background-attachment: fixed;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			opacity: 0.5;
+		}
+.header	{	height:150px;
+			opacity: 0.8;
+			background-color: #2f4f4f;
+		}
+.font	{
+			font-size:36px;
+			text-align: right;
+			color: white;
+			font-family: Bernard MT Condensed;
+		}
+
+.box1	{	height:300px;
+			opacity: 0.8;
+			background-color: #2f4f4f;
+		}
+
+.foot	{
+			font-size:36px;
+			text-align: right;
+			color: white;
+			font-family: bahnschrift;
+		}
+.box2	{	
+			height:300px;
+			opacity: 0.8;
+			background-color: #2f4f4f;
+		}
+.box3	{	height:330px;
+			opacity: 0.8;
+			background-color: #2f4f4f;
+		}
+.box4	{	height:250px;
+			background-color: #2f4f4f;
+			opacity: 0.8;
+		}
+.logo {	display: absolute;
+		margin-left: auto;
+		margin-right: 10%;
+		width:10%;
+		height:70%;
+		overflow:auto;
+		padding:1%;
+	}
+	
+.logo2 {	display: absolute;
+		margin-left: auto;
+		margin-right: 10%;
+		width:20%;
+		height:60%;
+		overflow:auto;
+		padding:1%;
+	}
+.right	{
+			float: right;
+			width: 12.75%;
+			text-align: right;
+			background-color: #cdc8b1;
+			height="100%"
+		}	
+.left {
+			float:left;
+			width:15%;
+			text-align: left;
+			background-color: #cdc8b1;
+			height="100%"
+		}
+		
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fffaf0;
+}
+
+li {
+    float: left;
+}
+
+me{
+	float: right;
+}
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+.li a:hover {
+    background-color: #dcdcdc;
+}
+
+.newspic{
+			height: 40%;
+			width: 100%;
+}
+
+.boximg{
+	width: 40%;
+	height: 80%;
+	padding: 30px;
+	margin-left: 50%;
+}
+.boxfont{
+	margin-top: 30px;
+	font-family: bahnschrift;
+}
+.lpannel{
+	
+	margin-left:15%;
+}
+.rpannel{
+	
+	margin-right:15%;
+}
+.headfont{
+			font-size: 500%;
+			margin-top: 5%;
+			font-family: bahnschrift;
+}
+.boxfont{ 
+			text-align: center;
+			margin-bottom: 50px
+
+}
+.headleft{
+	font-family: bahnschrift;
+	text-align: center;
+}
+.ads{
+			height: 50%;
+			width: 130%;
+}
+.setter{
+	width:20%;
+	height:80%
+}
