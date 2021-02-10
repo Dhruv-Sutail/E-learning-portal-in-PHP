@@ -13,7 +13,7 @@
 				$mydb->setQuery($sql);
 				$cur = $mydb->loadResultList();
 				foreach ($cur as $result) {
-					# code...
+					
 					echo '<tr>';
 					echo '<td>'.$result->LessonChapter.'</td>';
 					echo '<td>'.$result->LessonTitle.'</td>';

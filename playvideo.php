@@ -15,7 +15,7 @@
 </style>
  <h1><?php echo $title;?></h1> 
  <div class="container" >
- 	<video width="50%"  controls>
+ 	<video width="75%"  controls>
 		  <source src="<?php echo web_root.'admin/modules/lesson/'.$res->FileLocation; ?>" type="video/mp4">
 		  <source src="<?php echo web_root.'admin/modules/lesson/'.$res->FileLocation; ?>" type="video/ogg"> 
 		</video>

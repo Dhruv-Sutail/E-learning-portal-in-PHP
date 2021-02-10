@@ -1,7 +1,6 @@
 <?php 
 require_once ("include/initialize.php");   
 if (isset($_SESSION['StudentID'])) {
-  # code...
   redirect('index.php');
 }
 ?> 

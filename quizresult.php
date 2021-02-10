@@ -1,7 +1,6 @@
 <?php 
 $studentid = $_SESSION['StudentID'];
 	if (isset($_GET['score'])) {
-		# code...
 		echo	$score = '<h1>Your Score is : ' . $_GET['score'].'</h1>';
 	}
 

@@ -13,7 +13,6 @@ redirect("index.php");
     $score  = $ans->SCORE;
 
   	if ($score!=null) {
-  		# code...   
   		redirect("index.php?q=quizresult&id={$id}&score={$score}");
   	}
  ?>
@@ -27,7 +26,6 @@ redirect("index.php");
   $cur = $mydb->loadResultList();
 
   foreach ($cur as $res) {
-  	# code...
  
 ?> 
 <form> 

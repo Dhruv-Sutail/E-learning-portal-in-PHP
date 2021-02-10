@@ -77,7 +77,7 @@ if (isset($_SESSION['StudentID'])) {
 			<center><span id='message'></span><br></center>	
                       
           <input name="sub_btn" type="submit" id="S_btn" value="SignUp"><br>
-			<a href="Stu_login.php"><input name="back_btn" type="button" id="B_btn" value="Back"></a>		
+			<a href="login.php"><input name="back_btn" type="button" id="B_btn" value="Back"></a>		
 		</form>
 
  

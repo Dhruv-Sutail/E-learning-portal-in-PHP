@@ -14,12 +14,9 @@ $answer = $quiz->Answer;
 $lessonid = $quiz->LessonID;
 
 if ($answer == $value) {
-	# code... 
 	$score= 1;
-	// echo 'Correct';
 }else{
 	$score = 0;
-	// echo 'Wrong';
 }
 
 $sql = "SELECT * From tblscore WHERE ExerciseID = '{$exersiceid}' AND StudentID='{$studentid}'";

@@ -59,8 +59,6 @@ class Autonumber {
 	protected function sanitized_attributes() {
 	  global $mydb;
 	  $clean_attributes = array();
-	  // sanitize the values before submitting
-	  // Note: does not alter the actual value of each attribute
 	  foreach($this->attributes() as $key => $value){
 	    $clean_attributes[$key] = $mydb->escape_value($value);
 	  }
@@ -68,18 +66,14 @@ class Autonumber {
 	}
 	
 	
-	/*--Create,Update and Delete methods--*/
+	
 	public function save() {
-	  // A new record won't have an id yet.
+	
 	  return isset($this->id) ? $this->update() : $this->create();
 	}
 	
 	public function create() {
 		global $mydb;
-		// Don't forget your SQL syntax and good habits:
-		// - INSERT INTO table (key, key) VALUES ('value', 'value')
-		// - single-quotes around all values
-		// - escape all values to prevent SQL injection
 		$attributes = $this->sanitized_attributes();
 		$sql = "INSERT INTO ".self::$tblname." (";
 		$sql .= join(", ", array_keys($attributes));

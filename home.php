@@ -1,5 +1,3 @@
-<!-- <h1><?php echo $title;?></h1> -->
-
 <div class="col-lg-12">  
 <h4>OverView</h4>
     <p> The Ganpat University - Institute of Computer Technology (GNUICT) primarily provides advance instruction and professional training in science and technology.With Specialization CBA,BDA,MA,CS. </p> 

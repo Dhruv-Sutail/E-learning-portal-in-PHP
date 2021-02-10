@@ -15,9 +15,8 @@
 				$mydb->setQuery($sql);
 				$cur = $mydb->loadResultList();
 				foreach ($cur as $result) {
-					# code...
+				
 					echo '<tr>';
-				#	echo '<td></td>';
 					echo '<td>'.$result->LessonChapter.'</td>';
 					echo '<td>'.$result->LessonTitle.'</td>';
 					echo '<td><a href="index.php?q=viewpdf&id='.$result->LessonID.'" class="btn btn-xs btn-info"><i class="fa fa-info"></i> View File</a></td>';
@@ -42,7 +41,6 @@
 				$mydb->setQuery($sql);
 				$cur = $mydb->loadResultList();
 				foreach ($cur as $result) {
-					# code...
 					echo '<tr>';
 					echo '<td>'.$result->LessonTitle.'</td>'; 
 					echo '<td><a href="index.php?q=playvideo&id='.$result->LessonID.'" class="btn btn-xs btn-info"><i class="fa fa-play"></i> Play Video</a></td>';
